@@ -1,23 +1,23 @@
-body {
+body{
     background-color: GhostWhite;
-}
-
-p{
-  color: darkBlue;
-  text-align: center;
-  font-family: verdana;
-  font-size: large;
-}
-
-h1{
-  color:LightCoral;
-  text-align: center;
-}
-h2{
-  color:midnightBlue;
-  text-align: center;
-}
-h3{
-  color:LightSeaGreen;
-  text-align: center;
-}
+  }
+  
+  p{
+    color: darkBlue;
+    text-align: center;
+    font-family: verdana;
+    font-size: large;
+  }
+  
+  h1{
+    color:LightCoral;
+    text-align: center;
+  }
+  h2{
+    color:midnightBlue;
+    text-align: center;
+  }
+  h3{
+    color:LightSeaGreen;
+    text-align: center;
+  }
