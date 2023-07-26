@@ -1,23 +1,67 @@
-body{
-    background-color: GhostWhite;
-  }
-  
-  p{
-    color: darkBlue;
-    text-align: center;
-    font-family: verdana;
-    font-size: large;
-  }
-  
-  h1{
-    color:LightCoral;
-    text-align: center;
-  }
-  h2{
-    color:midnightBlue;
-    text-align: center;
-  }
-  h3{
-    color:LightSeaGreen;
-    text-align: center;
-  }
+body {
+  height: 100%;
+  margin: 0% auto;
+  font-family: Edita, Utopia Std, sans-serif;
+
+}
+
+/* Navigation CSS */
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  padding: 3px 10px 0px 10px;
+}
+.logo {
+  width: 10%;
+  padding: 1%;
+  text-align: right;
+}
+nav {
+  width: 85%;
+  padding: 1%;
+  text-align: center;
+}
+ul {
+  width: 50%;
+  margin-left: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: auto;
+  color: #fafaff;
+  font-family: edita, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+}
+.navigation {
+  background-color: #1c1c1c;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+
+/* Hero CSS */
+.heroImg {
+  height: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* Footer CSS */
+
+footer {
+  background-color: #373738;
+  width: 100%;
+  bottom: 0px;
+  position: sticky;
+  position: fixed;
+}
+a:link {
+  color: #fafaff;
+}
